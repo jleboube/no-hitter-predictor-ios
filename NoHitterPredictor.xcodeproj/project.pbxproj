@@ -22,6 +22,7 @@
 		6B6F0000000000000003000C /* stadiums.json in Resources */ = {isa = PBXBuildFile; fileRef = 6B6F00000000000000020011 /* stadiums.json */; };
 		6B6F0000000000000003000D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6F00000000000000020012 /* Assets.xcassets */; };
 		6B6F0000000000000003000E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B6F00000000000000020013 /* Preview Assets.xcassets */; };
+		7C38BC3E8F5A45FFA01420D0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C38BC3E8F5A45FFA01420C0 /* LaunchScreen.storyboard */; };
 		6B6F0000000000000003000F /* NoHitterPredictorWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6F0000000000000002000C /* NoHitterPredictorWidgetBundle.swift */; };
 		6B6F00000000000000030010 /* NoHitterPredictorWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6F0000000000000002000D /* NoHitterPredictorWidget.swift */; };
 		6B6F00000000000000030011 /* PredictionEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6F0000000000000002000E /* PredictionEntry.swift */; };
@@ -82,6 +83,7 @@
 		6B6F00000000000000020012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6B6F00000000000000020013 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = "Preview Assets.xcassets"; path = "Preview Content/Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6B6F00000000000000020014 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7C38BC3E8F5A45FFA01420C0 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6B6F00000000000000090001 /* NoHitterPredictor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; path = NoHitterPredictor.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B6F00000000000000090002 /* NoHitterPredictorWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; path = NoHitterPredictorWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -165,6 +167,7 @@
 			children = (
 				6B6F00000000000000020012 /* Assets.xcassets */,
 				6B6F00000000000000020013 /* Preview Assets.xcassets */,
+				7C38BC3E8F5A45FFA01420C0 /* LaunchScreen.storyboard */,
 				6B6F0000000000000002000F /* Info.plist */,
 			);
 			path = Resources;
@@ -321,6 +324,7 @@
 				6B6F0000000000000003000D /* Assets.xcassets in Resources */,
 				6B6F0000000000000003000E /* Preview Assets.xcassets in Resources */,
 				6B6F0000000000000003000C /* stadiums.json in Resources */,
+				7C38BC3E8F5A45FFA01420D0 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
