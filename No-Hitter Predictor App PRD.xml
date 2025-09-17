@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<prd>
+  <product_name>No-Hitter Predictor</product_name>
+  <version>1.0</version>
+  <prd_date>2025-09-17</prd_date>
+  <introduction>
+    <product_vision>
+      <![CDATA[Create a fun, simple, and dependency-free iOS app that leverages a custom algorithm to predict the pitcher most likely to throw a no-hitter on any given day. The primary focus is on an engaging and informative user experience, particularly through robust iOS widgets.]]>
+    </product_vision>
+    <disclaimers>
+      <![CDATA[This app is for entertainment and informational purposes only and is not intended for gambling. The predictions are based on statistical analysis and are not a guarantee of future outcomes. Users are solely responsible for their actions.]]>
+    </disclaimers>
+  </introduction>
+  <features>
+    <core_functionality>
+      <no_hitter_prediction>
+        <![CDATA[The app will display a single, primary prediction for the day: the pitcher most likely to throw a no-hitter.]]>
+      </no_hitter_prediction>
+      <predictive_algorithm>
+        <description>
+          <![CDATA[The app will use a custom-built algorithm that analyzes various historical and real-time data points.]]>
+        </description>
+        <data_points>
+          <data_point>Historical no-hitter data from public MLB data sources.</data_point>
+          <data_point>Weather conditions (temperature, humidity, wind) on dates no-hitters were thrown.</data_point>
+          <data_point>Stadium data for past no-hitters (e.g., elevation, field dimensions).</data_point>
+          <data_point>Pitcher's performance stats from their previous 3 games (e.g., strikes, hits allowed, earned run average, walk-to-hit ratio).</data_point>
+          <data_point>Batter data for the opposing team (e.g., batting average against a specific pitching style, historical performance against the predicted pitcher).</data_point>
+        </data_points>
+      </predictive_algorithm>
+      <daily_updates>
+        <![CDATA[The prediction will update daily, providing a new pitcher and their details each day.]]>
+      </daily_updates>
+    </core_functionality>
+    <widget_support>
+      <description>
+        <![CDATA[The app will provide a seamless and useful experience directly on the user's home screen.]]>
+      </description>
+      <small_widget>
+        <![CDATA[Displays the primary predicted pitcher's name and their team logo.]]>
+      </small_widget>
+      <medium_widget>
+        <![CDATA[Shows the predicted pitcher's name and team logo, along with key stats like their ERA and WHIP from their last 3 games.]]>
+      </medium_widget>
+      <large_widget>
+        <![CDATA[Presents the most comprehensive view, including the predicted pitcher's photo, name, team, and a summary of the data points used in the algorithm (e.g., 'Stadium History: Favorable', 'Last 3 Games: Excellent ERA').]]>
+      </large_widget>
+    </widget_support>
+  </features>
+  <non_functional_requirements>
+    <technical>
+      <platform>iOS (iPhone, iPad)</platform>
+      <no_dependencies>
+        <![CDATA[The app will not require a backend server, user authentication, or a database. All data for the algorithm will be pulled from publicly available sources and processed locally.]]>
+      </no_dependencies>
+      <data_sources>
+        <![CDATA[All data used to build the algorithm must be from publicly accessible MLB data sites or other verified public sources. No fake or dummy data will be used.]]>
+      </data_sources>
+      <performance>
+        <![CDATA[The app and its widgets must be performant, with quick loading times and minimal battery consumption.]]>
+      </performance>
+    </technical>
+    <user_experience>
+      <simplicity>
+        <![CDATA[The user interface (UI) will be clean and straightforward, with a focus on the daily prediction and widget configuration.]]>
+      </simplicity>
+      <no_monetization>
+        <![CDATA[The app will be a one-time purchase without any in-app purchases, subscriptions, or advertisements.]]>
+      </no_monetization>
+    </user_experience>
+  </non_functional_requirements>
+</prd>
